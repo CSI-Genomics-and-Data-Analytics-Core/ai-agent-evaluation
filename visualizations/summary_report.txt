@@ -1,0 +1,66 @@
+================================================================================
+GDC EVALUATION SUMMARY REPORT
+Correctness Scale: 1 (Error) to 5 (Correct)
+================================================================================
+
+OVERALL STATISTICS
+--------------------------------------------------------------------------------
+Total evaluations: 300
+Total unique questions: 30
+Frameworks tested: 3
+Configurations: 3
+Evaluation dates: 2
+Overall average correctness score: 2.97/5.00
+
+PERFORMANCE BY FRAMEWORK AND CONFIGURATION
+--------------------------------------------------------------------------------
+
+Sonnet 4.5 (LLM Only):
+  Overall Score: 2.20/5.00
+  Low Complexity: 3.05/5.00
+  Medium Complexity: 1.85/5.00
+  High Complexity: 1.70/5.00
+
+GPT 4.1 (LLM Only):
+  Overall Score: 2.37/5.00
+  Low Complexity: 2.75/5.00
+  Medium Complexity: 2.25/5.00
+  High Complexity: 2.10/5.00
+
+Gemini 2.5 Pro (LLM Only):
+  Overall Score: 2.15/5.00
+  Low Complexity: 2.85/5.00
+  Medium Complexity: 2.10/5.00
+  High Complexity: 1.50/5.00
+
+Sonnet 4.5 (LLM + MCP):
+  Overall Score: 4.07/5.00
+  Low Complexity: 4.75/5.00
+  Medium Complexity: 4.55/5.00
+  High Complexity: 2.90/5.00
+
+Sonnet 4.5 (LLM + RAG + MCP):
+  Overall Score: 4.07/5.00
+  Low Complexity: 4.55/5.00
+  Medium Complexity: 4.70/5.00
+  High Complexity: 2.95/5.00
+
+BEST PERFORMING CONFIGURATION
+--------------------------------------------------------------------------------
+Sonnet 4.5 (LLM + MCP): 4.07/5.00
+
+AVERAGE SCORE BY COMPLEXITY LEVEL (ACROSS ALL FRAMEWORKS)
+--------------------------------------------------------------------------------
+Low: 3.59/5.00
+Medium: 3.09/5.00
+High: 2.23/5.00
+
+OVERALL CORRECTNESS SCORE DISTRIBUTION
+--------------------------------------------------------------------------------
+Score 1: 55 (18.3%)
+Score 2: 87 (29.0%)
+Score 3: 50 (16.7%)
+Score 4: 28 (9.3%)
+Score 5: 80 (26.7%)
+
+================================================================================
